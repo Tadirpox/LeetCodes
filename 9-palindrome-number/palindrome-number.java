@@ -7,7 +7,6 @@ class Solution {
             y = y* 10+z%10;
             z /=10;
         }
-        if(y == x) return true;
-        else return false;
+        return y == x;
     }
 }
